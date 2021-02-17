@@ -16,4 +16,4 @@ In the project's directory, run the following command:
 
 ### Windows
 
-Run the start_model.bat file inside rcc_simulator folder.
+Run the *start_model.bat* file inside *rcc_simulator* folder.
