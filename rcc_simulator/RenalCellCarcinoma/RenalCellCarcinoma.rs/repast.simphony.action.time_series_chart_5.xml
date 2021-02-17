@@ -1,0 +1,194 @@
+<repast.simphony.chart2.engine.TimeSeriesChartDescriptor simphonyVersion="2.8.0">
+  <name>Cell Counts</name>
+  <dataSet>Cell Counts</dataSet>
+  <xAxisLabel>Tick Count</xAxisLabel>
+  <yAxisLabel>Number of Cells</yAxisLabel>
+  <chartTitle>Cell Counts</chartTitle>
+  <type>TIME_SERIES</type>
+  <background>
+    <red>254</red>
+    <green>254</green>
+    <blue>254</blue>
+    <alpha>255</alpha>
+  </background>
+  <gridLineColor>
+    <red>255</red>
+    <green>255</green>
+    <blue>255</blue>
+    <alpha>255</alpha>
+  </gridLineColor>
+  <showGrid>true</showGrid>
+  <showLegend>true</showLegend>
+  <seriesIds>
+    <entry>
+      <string>Plasmacitoid Dendritic Cells</string>
+      <SeriesData>
+        <label>Plasmacitoid Dendritic Cells</label>
+        <color>
+          <red>102</red>
+          <green>102</green>
+          <blue>0</blue>
+          <alpha>255</alpha>
+        </color>
+      </SeriesData>
+    </entry>
+    <entry>
+      <string>Dendritic Cells</string>
+      <SeriesData>
+        <label>Dendritic Cells</label>
+        <color>
+          <red>255</red>
+          <green>0</green>
+          <blue>255</blue>
+          <alpha>255</alpha>
+        </color>
+      </SeriesData>
+    </entry>
+    <entry>
+      <string>Natural Killer Cells</string>
+      <SeriesData>
+        <label>Natural Killer Cells</label>
+        <color>
+          <red>102</red>
+          <green>0</green>
+          <blue>0</blue>
+          <alpha>255</alpha>
+        </color>
+      </SeriesData>
+    </entry>
+    <entry>
+      <string>Neutrophils</string>
+      <SeriesData>
+        <label>Neutrophils</label>
+        <color>
+          <red>204</red>
+          <green>255</green>
+          <blue>204</blue>
+          <alpha>255</alpha>
+        </color>
+      </SeriesData>
+    </entry>
+    <entry>
+      <string>M2 Macrophages</string>
+      <SeriesData>
+        <label>M2 Macrophages</label>
+        <color>
+          <red>0</red>
+          <green>255</green>
+          <blue>255</blue>
+          <alpha>255</alpha>
+        </color>
+      </SeriesData>
+    </entry>
+    <entry>
+      <string>Naive CD4+ Cells</string>
+      <SeriesData>
+        <label>Naive CD4+ Cells</label>
+        <color>
+          <red>0</red>
+          <green>0</green>
+          <blue>255</blue>
+          <alpha>255</alpha>
+        </color>
+      </SeriesData>
+    </entry>
+    <entry>
+      <string>Naive CD8+ Cells</string>
+      <SeriesData>
+        <label>Naive CD8+ Cells</label>
+        <color>
+          <red>255</red>
+          <green>0</green>
+          <blue>0</blue>
+          <alpha>255</alpha>
+        </color>
+      </SeriesData>
+    </entry>
+    <entry>
+      <string>M1 Macrophages</string>
+      <SeriesData>
+        <label>M1 Macrophages</label>
+        <color>
+          <red>255</red>
+          <green>200</green>
+          <blue>0</blue>
+          <alpha>255</alpha>
+        </color>
+      </SeriesData>
+    </entry>
+    <entry>
+      <string>Cytotoxic T Killer Cells</string>
+      <SeriesData>
+        <label>Cytotoxic T Killer Cells</label>
+        <color>
+          <red>0</red>
+          <green>255</green>
+          <blue>0</blue>
+          <alpha>255</alpha>
+        </color>
+      </SeriesData>
+    </entry>
+    <entry>
+      <string>Regulatory T Cells</string>
+      <SeriesData>
+        <label>Regulatory T Cells</label>
+        <color>
+          <red>0</red>
+          <green>153</green>
+          <blue>102</blue>
+          <alpha>255</alpha>
+        </color>
+      </SeriesData>
+    </entry>
+    <entry>
+      <string>T Helper 2 Cells</string>
+      <SeriesData>
+        <label>T Helper 2 Cells</label>
+        <color>
+          <red>102</red>
+          <green>204</green>
+          <blue>255</blue>
+          <alpha>255</alpha>
+        </color>
+      </SeriesData>
+    </entry>
+    <entry>
+      <string>Tumour Cells</string>
+      <SeriesData>
+        <label>Tumour Cells</label>
+        <color>
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+          <alpha>255</alpha>
+        </color>
+      </SeriesData>
+    </entry>
+    <entry>
+      <string>T Helper 1 Cells</string>
+      <SeriesData>
+        <label>T Helper 1 Cells</label>
+        <color>
+          <red>153</red>
+          <green>0</green>
+          <blue>255</blue>
+          <alpha>255</alpha>
+        </color>
+      </SeriesData>
+    </entry>
+    <entry>
+      <string>Mast Cells</string>
+      <SeriesData>
+        <label>Mast Cells</label>
+        <color>
+          <red>255</red>
+          <green>255</green>
+          <blue>0</blue>
+          <alpha>255</alpha>
+        </color>
+      </SeriesData>
+    </entry>
+  </seriesIds>
+  <dataValueIds/>
+  <plotRangeLength>-1</plotRangeLength>
+</repast.simphony.chart2.engine.TimeSeriesChartDescriptor>

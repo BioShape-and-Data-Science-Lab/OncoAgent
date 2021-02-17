@@ -1,0 +1,76 @@
+<repast.simphony.data2.engine.DataSetDescriptor simphonyVersion="2.8.0">
+  <name>Kill Counts</name>
+  <type>AGGREGATE</type>
+  <inclTick>true</inclTick>
+  <inclBatchRun>true</inclBatchRun>
+  <inclRandomSeed>true</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>270801548</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>Tumour Apoptosis Count</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Tumour Apoptosis Count</id>
+        <className>renalCellCarcinoma.Observer</className>
+        <methodName>getApoptosisCount</methodName>
+        <aggType>MEAN</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>CD8+ T Killer Cell Kill Count</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>CD8+ T Killer Cell Kill Count</id>
+        <className>renalCellCarcinoma.Observer</className>
+        <methodName>getCTCellKills</methodName>
+        <aggType>MEAN</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Dendritic Cell Kill Count</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Dendritic Cell Kill Count</id>
+        <className>renalCellCarcinoma.Observer</className>
+        <methodName>getDendriticCellKills</methodName>
+        <aggType>MEAN</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>M1 Macrophage Kill Count</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>M1 Macrophage Kill Count</id>
+        <className>renalCellCarcinoma.Observer</className>
+        <methodName>getM1MacrophageKills</methodName>
+        <aggType>MEAN</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Plasmacitoid Dendritic Cell Kill Count</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Plasmacitoid Dendritic Cell Kill Count</id>
+        <className>renalCellCarcinoma.Observer</className>
+        <methodName>getPdcKills</methodName>
+        <aggType>MEAN</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Natural Killer Cell Kill Count</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Natural Killer Cell Kill Count</id>
+        <className>renalCellCarcinoma.Observer</className>
+        <methodName>getNklKillCount</methodName>
+        <aggType>MEAN</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>

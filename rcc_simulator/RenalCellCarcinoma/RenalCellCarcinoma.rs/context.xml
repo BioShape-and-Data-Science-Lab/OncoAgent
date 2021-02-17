@@ -1,0 +1,4 @@
+<context id="RenalCellCarcinoma" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://repast.org/scenario/context">
+  	<projection type="grid" id="space"></projection>
+  	<projection type="grid" id="legendSpace"></projection>
+</context>

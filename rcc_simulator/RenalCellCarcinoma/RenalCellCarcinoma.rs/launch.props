@@ -1,0 +1,6 @@
+#
+#Wed Feb 10 14:49:38 CET 2021
+incoming=tcp\://127.0.0.1\:5555
+outgoing=tcp\://127.0.0.1\:5556
+scenario=../RenalCellCarcinoma.rs
+working.directory=../

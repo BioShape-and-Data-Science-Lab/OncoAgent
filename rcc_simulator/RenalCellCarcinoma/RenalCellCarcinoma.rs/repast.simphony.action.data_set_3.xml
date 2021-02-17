@@ -1,0 +1,120 @@
+<repast.simphony.data2.engine.DataSetDescriptor simphonyVersion="2.8.0">
+  <name>Cell Counts</name>
+  <type>AGGREGATE</type>
+  <inclTick>true</inclTick>
+  <inclBatchRun>true</inclBatchRun>
+  <inclRandomSeed>true</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>270801548</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map"/>
+  <countSources class="linked-hash-map">
+    <entry>
+      <string>Naive CD4+ Cells</string>
+      <repast.simphony.data2.engine.CountSourceDefinition>
+        <typeName>renalCellCarcinoma.CD4</typeName>
+        <id>Naive CD4+ Cells</id>
+      </repast.simphony.data2.engine.CountSourceDefinition>
+    </entry>
+    <entry>
+      <string>Naive CD8+ Cells</string>
+      <repast.simphony.data2.engine.CountSourceDefinition>
+        <typeName>renalCellCarcinoma.CD8</typeName>
+        <id>Naive CD8+ Cells</id>
+      </repast.simphony.data2.engine.CountSourceDefinition>
+    </entry>
+    <entry>
+      <string>Cytotoxic T Killer Cells</string>
+      <repast.simphony.data2.engine.CountSourceDefinition>
+        <typeName>renalCellCarcinoma.CTCellActivated</typeName>
+        <id>Cytotoxic T Killer Cells</id>
+      </repast.simphony.data2.engine.CountSourceDefinition>
+    </entry>
+    <entry>
+      <string>Dendritic Cells</string>
+      <repast.simphony.data2.engine.CountSourceDefinition>
+        <typeName>renalCellCarcinoma.DendriticCell</typeName>
+        <id>Dendritic Cells</id>
+      </repast.simphony.data2.engine.CountSourceDefinition>
+    </entry>
+    <entry>
+      <string>M1 Macrophages</string>
+      <repast.simphony.data2.engine.CountSourceDefinition>
+        <typeName>renalCellCarcinoma.MacrophageM1</typeName>
+        <id>M1 Macrophages</id>
+      </repast.simphony.data2.engine.CountSourceDefinition>
+    </entry>
+    <entry>
+      <string>M2 Macrophages</string>
+      <repast.simphony.data2.engine.CountSourceDefinition>
+        <typeName>renalCellCarcinoma.MacrophageM2</typeName>
+        <id>M2 Macrophages</id>
+      </repast.simphony.data2.engine.CountSourceDefinition>
+    </entry>
+    <entry>
+      <string>Mast Cells</string>
+      <repast.simphony.data2.engine.CountSourceDefinition>
+        <typeName>renalCellCarcinoma.MastCell</typeName>
+        <id>Mast Cells</id>
+      </repast.simphony.data2.engine.CountSourceDefinition>
+    </entry>
+    <entry>
+      <string>Natural Killer Cells</string>
+      <repast.simphony.data2.engine.CountSourceDefinition>
+        <typeName>renalCellCarcinoma.NaturalKillerCell</typeName>
+        <id>Natural Killer Cells</id>
+      </repast.simphony.data2.engine.CountSourceDefinition>
+    </entry>
+    <entry>
+      <string>Neutrophils</string>
+      <repast.simphony.data2.engine.CountSourceDefinition>
+        <typeName>renalCellCarcinoma.Neutrophil</typeName>
+        <id>Neutrophils</id>
+      </repast.simphony.data2.engine.CountSourceDefinition>
+    </entry>
+    <entry>
+      <string>Plasmacitoid Dendritic Cells</string>
+      <repast.simphony.data2.engine.CountSourceDefinition>
+        <typeName>renalCellCarcinoma.PlasmacitoidDendriticCell</typeName>
+        <id>Plasmacitoid Dendritic Cells</id>
+      </repast.simphony.data2.engine.CountSourceDefinition>
+    </entry>
+    <entry>
+      <string>Regulatory T Cells</string>
+      <repast.simphony.data2.engine.CountSourceDefinition>
+        <typeName>renalCellCarcinoma.RegulatoryT</typeName>
+        <id>Regulatory T Cells</id>
+      </repast.simphony.data2.engine.CountSourceDefinition>
+    </entry>
+    <entry>
+      <string>T Helper 1 Cells</string>
+      <repast.simphony.data2.engine.CountSourceDefinition>
+        <typeName>renalCellCarcinoma.THelper1</typeName>
+        <id>T Helper 1 Cells</id>
+      </repast.simphony.data2.engine.CountSourceDefinition>
+    </entry>
+    <entry>
+      <string>T Helper 2 Cells</string>
+      <repast.simphony.data2.engine.CountSourceDefinition>
+        <typeName>renalCellCarcinoma.THelper2</typeName>
+        <id>T Helper 2 Cells</id>
+      </repast.simphony.data2.engine.CountSourceDefinition>
+    </entry>
+    <entry>
+      <string>Tumour Cells</string>
+      <repast.simphony.data2.engine.CountSourceDefinition>
+        <typeName>renalCellCarcinoma.TumourCell</typeName>
+        <id>Tumour Cells</id>
+      </repast.simphony.data2.engine.CountSourceDefinition>
+    </entry>
+  </countSources>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>

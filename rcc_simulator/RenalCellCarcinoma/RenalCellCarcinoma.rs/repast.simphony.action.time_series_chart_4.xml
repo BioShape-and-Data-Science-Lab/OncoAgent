@@ -1,0 +1,98 @@
+<repast.simphony.chart2.engine.TimeSeriesChartDescriptor simphonyVersion="2.8.0">
+  <name>Kill Counts</name>
+  <dataSet>Kill Counts</dataSet>
+  <xAxisLabel>Tick Count</xAxisLabel>
+  <yAxisLabel>Number of Tumour Cells killed</yAxisLabel>
+  <chartTitle>Kill Counts</chartTitle>
+  <type>TIME_SERIES</type>
+  <background>
+    <red>254</red>
+    <green>254</green>
+    <blue>254</blue>
+    <alpha>255</alpha>
+  </background>
+  <gridLineColor>
+    <red>255</red>
+    <green>255</green>
+    <blue>255</blue>
+    <alpha>255</alpha>
+  </gridLineColor>
+  <showGrid>true</showGrid>
+  <showLegend>true</showLegend>
+  <seriesIds>
+    <entry>
+      <string>Tumour Apoptosis Count</string>
+      <SeriesData>
+        <label>Tumour Apoptosis Count</label>
+        <color>
+          <red>0</red>
+          <green>0</green>
+          <blue>255</blue>
+          <alpha>255</alpha>
+        </color>
+      </SeriesData>
+    </entry>
+    <entry>
+      <string>CD8+ T Killer Cell Kill Count</string>
+      <SeriesData>
+        <label>CD8+ T Killer Cell Kill Count</label>
+        <color>
+          <red>255</red>
+          <green>0</green>
+          <blue>0</blue>
+          <alpha>255</alpha>
+        </color>
+      </SeriesData>
+    </entry>
+    <entry>
+      <string>Plasmacitoid Dendritic Cell Kill Count</string>
+      <SeriesData>
+        <label>Plasmacitoid Dendritic Cell Kill Count</label>
+        <color>
+          <red>255</red>
+          <green>200</green>
+          <blue>0</blue>
+          <alpha>255</alpha>
+        </color>
+      </SeriesData>
+    </entry>
+    <entry>
+      <string>Natural Killer Cell Kill Count</string>
+      <SeriesData>
+        <label>Natural Killer Cell Kill Count</label>
+        <color>
+          <red>0</red>
+          <green>255</green>
+          <blue>255</blue>
+          <alpha>255</alpha>
+        </color>
+      </SeriesData>
+    </entry>
+    <entry>
+      <string>M1 Macrophage Kill Count</string>
+      <SeriesData>
+        <label>M1 Macrophage Kill Count</label>
+        <color>
+          <red>255</red>
+          <green>0</green>
+          <blue>255</blue>
+          <alpha>255</alpha>
+        </color>
+      </SeriesData>
+    </entry>
+    <entry>
+      <string>Dendritic Cell Kill Count</string>
+      <SeriesData>
+        <label>Dendritic Cell Kill Count</label>
+        <color>
+          <red>0</red>
+          <green>255</green>
+          <blue>0</blue>
+          <alpha>255</alpha>
+        </color>
+      </SeriesData>
+    </entry>
+  </seriesIds>
+  <dataValueIds/>
+  <plotRangeLength>-1</plotRangeLength>
+</repast.simphony.chart2.engine.TimeSeriesChartDescriptor>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<parameters>
+		<parameter name="BMI" displayName="1.1 Body Mass Index" type="double" 
+						defaultValue="22.0" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+		<parameter name="volume" displayName="1.2 Volume (mL)" type="double" 
+						defaultValue="0.0001" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+		<parameter name="blockSize" displayName="1.3 Block Size (μm)" type="double" 
+						defaultValue="10" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+		<parameter name="tumourDistance" displayName="1.4 First Tumour Cell Distance From Blood Vessel (Blocks)" type="int" 
+						defaultValue="30"
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"		
+		/>
+		<parameter name="injectionTime" displayName="1.5 First Tumour Cell Spawning Tick" type="int" 
+						defaultValue="10"
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"		
+		/>
+		<parameter name="treatmentStart" displayName="1.6 Immune Response Beginning Tick" type="int" 
+						defaultValue="15"
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"		
+		/>
+		<parameter name="tumourEndCondition" displayName="1.7 Tumour Max Count Limit" type="int" 
+						defaultValue="1000"
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"		
+		/>
+		<parameter name="timeEndCondition" displayName="1.8 Tick Max Limit" type="int" 
+						defaultValue="100" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"		
+		/>
+		<parameter name="ctcConcentration" displayName="2.1 Cytotoxic T Cells Concentration (cells/mL)" type="int" 
+						defaultValue="80000" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"		
+		/>
+		<parameter name="neutrophilConcentration" displayName="2.2 Neutrophils Concentration (cells/mL)" type="int" 
+						defaultValue="40000" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"		
+		/>
+		<parameter name="mastCellConcentration" displayName="2.3 Mast Cells Concentration (cells/mL)" type="int" 
+						defaultValue="40000" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"		
+		/>
+		<parameter name="tregConcentration" displayName="2.4 Regulatory T Cells Cells Concentration (cells/mL)" type="int" 
+						defaultValue="40000" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"		
+		/>
+		<parameter name="pdcConcentration" displayName="2.5 Plasmacitoid Dendritic Cells Concentration (cells/mL)" type="int" 
+						defaultValue="40000" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"		
+		/>
+		<parameter name="th1Concentration" displayName="2.6 T Helper Type 1 Cells Concentration (cells/mL)" type="int" 
+						defaultValue="40000" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"		
+		/>
+		<parameter name="th2Concentration" displayName="2.7 T Helper Type 2 Cells Concentration (cells/mL)" type="int" 
+						defaultValue="40000" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"		
+		/>
+		<parameter name="dcConcentration" displayName="2.8 Dendritic Cells Concentration (cells/mL)" type="int" 
+						defaultValue="80000" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"		
+		/>
+		<parameter name="m1Concentration" displayName="2.9 M1 Macrophages Concentration (cells/mL)" type="int" 
+						defaultValue="40000" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"		
+		/>
+		<parameter name="m2Concentration" displayName="2.a M2 Macrophages Concentration (cells/mL)" type="int" 
+						defaultValue="40000" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"		
+		/>
+		<parameter name="nklConcentration" displayName="2.b Natural Killer Cells Concentration (cells/mL)" type="int" 
+						defaultValue="160000" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"		
+		/>
+		<parameter name="cd4Concentration" displayName="2.c CD4+ Navie T Cells Concentration (cells/mL)" type="int" 
+						defaultValue="80000" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"		
+		/>
+		<parameter name="cd8Concentration" displayName="2.d CD8+ Navie T Cells Concentration (cells/mL)" type="int" 
+						defaultValue="80000" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"		
+		/>
+		
+		
+		<parameter name="NKLdelta" displayName="3.1 NK Cells Difference" type="int" 
+						defaultValue="16000" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+		/>
+		<parameter name="obeseMacrophageM2MutationEffect" displayName="3.2 Obese M2 Macrophage Mutation Effect" type="int" 
+						defaultValue="5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"						
+		/>
+		<parameter name="obeseTregDifferentiationEffect" displayName="3.3 Obese Treg Differentiation Effect" type="int" 
+						defaultValue="-5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"						
+		/>
+		<parameter name="netIncrement" displayName="3.4 Perinephric Fat Immune Cells" type="int" 
+						defaultValue="24000" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"						
+		/>
+		<parameter name="obeseNKLKillRateEffect" displayName="3.5 Obese NK Cells Kill Rate Effect" type="int" 
+						defaultValue="-5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+		
+		<parameter name="duplicationRate" displayName="4 Duplication Rate for Tumour Cells" type="int" 
+						defaultValue="5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+		
+		
+		
+		<parameter name="randomSeed" displayName="5 Default Random Seed" type="int" 
+						defaultValue="__NULL__"
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				
+				
+				
+				
+				
+				
+</parameters>
+
+

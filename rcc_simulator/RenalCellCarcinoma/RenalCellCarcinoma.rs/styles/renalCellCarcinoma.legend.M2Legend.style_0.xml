@@ -1,0 +1,39 @@
+<repast.simphony.visualization.editedStyle.DefaultEditedStyleData3D>
+  <shapeWkt>cone</shapeWkt>
+  <size>0.03</size>
+  <sizeMax>0.1</sizeMax>
+  <sizeMin>0.0</sizeMin>
+  <sizeScale>1.0</sizeScale>
+  <label>M2 Macrophage</label>
+  <labelPosition>bottom</labelPosition>
+  <labelPrecision>3</labelPrecision>
+  <labelOffset>0.1</labelOffset>
+  <labelFontSize>10</labelFontSize>
+  <labelFontType>0</labelFontType>
+  <labelFontFamily>Arial</labelFontFamily>
+  <labelColor>
+    <float>1.0</float>
+    <float>1.0</float>
+    <float>1.0</float>
+  </labelColor>
+  <color>
+    <float>1.0</float>
+    <float>0.0</float>
+    <float>0.0</float>
+  </color>
+  <colorMax>
+    <float>10.0</float>
+    <float>10.0</float>
+    <float>10.0</float>
+  </colorMax>
+  <colorMin>
+    <float>0.0</float>
+    <float>0.0</float>
+    <float>0.0</float>
+  </colorMin>
+  <colorScale>
+    <float>1.0</float>
+    <float>1.0</float>
+    <float>1.0</float>
+  </colorScale>
+</repast.simphony.visualization.editedStyle.DefaultEditedStyleData3D>
