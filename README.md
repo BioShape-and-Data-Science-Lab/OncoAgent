@@ -6,7 +6,7 @@ Just download the current repository.
 
 ## Execution
 
-### Unix
+### Unix and MacOS
 
 In the project's directory, run the following command:
 
