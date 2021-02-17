@@ -34,4 +34,4 @@ In order to run the software, you should have Java 8 or a superior version insta
 
 ### Installation
 
-To install the software, clone the [GitHub repository](https://github.com/Rocche/OncoAgent) and follow the instructions provided in the *README* file.
+To install the software, clone the [GitHub repository](https://github.com/BioShape-and-Data-Science-Lab/OncoAgent) and follow the instructions provided in the *README* file.
