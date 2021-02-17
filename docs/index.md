@@ -26,7 +26,7 @@ Moreover, Repast Simphony permits to add additional functionalities, such as exp
 
 ### Pre-Requisites
 
-In order to run the software, you should have Java 8 or a superior version installed on your machine.
+In order to run the software, you should have Java 11 or a superior version installed on your machine.
 
 ### Installation
 
