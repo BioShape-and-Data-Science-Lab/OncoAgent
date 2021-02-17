@@ -2,3 +2,6 @@ theme: jekyll-theme-cayman
 title: OncoAgent
 description: A Multiagent Simulator of the Tumour Microenvironment
 show_downloads: true
+github:
+  zip_url: https://github.com/BioShape-and-Data-Science-Lab/OncoAgent/zipball/main
+  tar_url: https://github.com/BioShape-and-Data-Science-Lab/OncoAgent/tarball/main
