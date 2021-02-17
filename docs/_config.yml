@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
 title: [OncoAgent]
 description: [A MultiAgent Simulator of the Tumour Microenvironment]
-show_downloads: ["false"]
+show_downloads: true
