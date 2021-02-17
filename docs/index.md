@@ -1,12 +1,8 @@
-## OncoAgent
+**OncoAgent** is a project developed at the [*BioShape and Data Science Lab*](http://www.emanuelamerelli.eu/bigdata/doku.php?id=start) of the University of Camerino . 
 
-### Introduction
+This project is aimed to provide a **simulator** that represents the tumour micro-enviornment using **agent-based modeling** approach. In particular, agents' behaviour and environment have been modelled taking the *Renal Cell Carcinoma (RCC)* as case study.  
 
-**OncoAgent** is a project developed by the [*BioShape and Data Science Lab*](http://www.emanuelamerelli.eu/bigdata/doku.php?id=start) of the University of Camerino . 
-
-This project is aimed to provide a **simulator** that models the tumour micro-enviornment using **multiagent-based modeling**. In particular, agents' behaviour and environment have been modelled following the case study of the Renal Cell Carcinoma (RCC).  
-
-Agents may execute various behaviours and can take choices based on the interaction with other agents or the environment. The surrounding environment is the context were agents live and interact with each other and it can influence the agents itself with its peculiar features. The theoretical model upon which this project is based on is a stochastic cellular automaton, and can be seen as a generalization of the late Conway’s Game of Life.
+Agents may have various behaviours and can make choices based on the interaction with other agents or the environment. The surrounding environment is the context were agents live and interact with one another and it can influence the agents themselves. The theoretical model upon which this project is based on is a stochastic cellular automaton, and can be seen as a generalization of the late [Conway’s Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
 
 The software tool used to develop this system is The Repast Suite, a family of advanced, free, and open source agent-based modeling and simulation platforms. In particular it is used the Java implementation of it, *Repast Simphony 2.8*, downloadable from [their official website](https://repast.github.io/) .
 
