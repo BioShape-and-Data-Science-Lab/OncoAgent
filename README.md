@@ -1,4 +1,4 @@
-# RenalCellCarcinomaSimulator
+# OncoAgent
 
 ## Installation
 
